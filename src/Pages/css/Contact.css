@@ -1,0 +1,33 @@
+
+.map {
+    width: 100%;
+    height: 100vh;
+}
+.infoCont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    padding-top: 150px;
+    pointer-events: none;
+}
+.outerFrame {
+    background-color: #11151C;
+    width: 500px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.5);
+}
+.innerFrame {
+    border: 1px solid #FF6D00;
+    color: #FFF;
+    padding: 10px;
+}
+.estebanFont {
+    font-family: 'Esteban';
+}
+.clickerfont {
+    font-family: 'Clicker';
+}

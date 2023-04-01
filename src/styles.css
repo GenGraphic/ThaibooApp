@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Esteban';
+    src: local('Esteban'),
+    url('./font-family/Esteban/Esteban-Regular.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Clicker';
+    src: local('Clicker'),
+    url('./font-family/Clicker_Script/ClickerScript-Regular.ttf') format('truetype')
+}
+
+.textWhite{
+    font-family: 'Esteban';
+    color: #FFF;
+}
+
+body {
+    background-color: #F8F9FA;
+    height: 100vh;
+    margin: 0px;
+}
+
+/*Hero page*/
+.heroPage {
+    height: 100vh;
+    overflow: hidden;
+}
+.vidseoBkg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -5;
+}
+.textCont {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    color: #F8F9FA;
+    filter: brightness(100%);
+}
+.txtWelcome {
+    font-family: 'Esteban';
+    font-size: 70px;
+    margin: 0;
+    font-weight: 200;
+    opacity: 0;
+    animation-name: opacityWelcome;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes opacityWelcome {
+    100% {
+        opacity: 1;
+    }
+}
+
+.txtName {
+    font-family: 'Clicker';
+    font-size: 100px;
+    margin: 0;
+    font-weight: 100;
+    color: #FF6D00;
+}
+.txtInfo {
+    font-family: 'Esteban';
+    margin: 0;
+    font-size: 18px;
+}
+.telefonNr {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* About us section*/
+.titleParagraph {
+    font-family: 'Esteban';
+    font-size: 70px;
+}
+.subtitle {
+    font-family: 'Clicker';
+    font-size: 24px;
+}
+.paragraphIcon {
+    width: 30px;
+    height: 30px;
+}
+.paragraph {
+    font-family: 'Esteban';
+    font-family: 16px;
+}
+.teamImg {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+.puzzleCont {
+    width: 500px;
+    height: 500px;
+    background-image: url('./images/home/presentationPlate.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.whiteSquare {
+    height: 50%;
+    width: 50%;
+    background-color: #F8F9FA;
+}
+.puzzlePiece {
+    background-image: url('./images/home/presentationPlate.jpeg');
+    background-position: 20% 0%;
+    background-size: 300%;
+    width: 95%;
+    height: 95%;
+}
+
+/*Banner*/
+.bannerRow {
+    background-image: url('./images/home/banner1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.glassMotto {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    height: 100px;
+    line-height: 100px;
+    flex: 1;
+    color: #F8F9FA;
+    font-family: 'Clicker';
+    font-size: 2rem;
+}

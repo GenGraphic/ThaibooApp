@@ -1,0 +1,19 @@
+.dishTitle {
+    font-family: 'Esteban';
+    color: #FFF;
+    text-decoration: underline;
+}
+.dishDescription {
+    font-family: 'Clicker';
+    font-size: 1.4rem;
+    color: #FFF;
+    margin: 0;
+}
+.dishPrice {
+    color: #FFF;
+    font-family: 'Esteban';
+    font-weight: 900;
+}
+.priceTable {
+    background: linear-gradient(#9D0208, #6A040F);
+}

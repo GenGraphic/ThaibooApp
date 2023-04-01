@@ -1,0 +1,74 @@
+.heroSection {
+    height: 850px;
+    background-image: url('../../images/about/heroImg.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titleOuterFrame {
+    background-color: #11151C;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.titleInnerFrame {
+    width: 450px;
+    height: 150px;
+    border: 1px solid #FF6D00;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+}
+.titleInnerFrame p {
+    font-family: 'Clicker';
+    font-size: 30px;
+    margin: 0;
+}
+.titleInnerFrame h1 {
+    font-family: 'Esteban';
+    font-size: 60px;
+    margin: 0;
+}
+.decoImg {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.titleParagraph {
+    font-family: 'Esteban';
+    font-size: 25px;
+}
+.paragraph {
+    font-family: 'Clicker';
+    font-size: 25px;
+}
+.banner {
+    background-image: url('../../images/about/bannerImg.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.mottoOutterFrame {
+    width: 830px;
+    height: 150px;
+    background-color: #11151c80 ;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+.mottoInnerFrame {
+    width: 780px;
+    height: 100px;
+    border: 1px solid #FF6D00;
+}
+.motto {
+    font-family: 'Clicker';
+    color: #FFF;
+    font-size: 24px;
+    text-align: center;
+}

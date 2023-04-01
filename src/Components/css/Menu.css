@@ -1,0 +1,37 @@
+/* Navbar */
+.navBar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #11151C;
+}
+.links {
+    font-family: 'Esteban';
+    font-size: 20px;
+    margin-left: 25px;
+}
+.links:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+.contactBtn {
+    width: 200px;
+    height: 35px;
+    background: none;
+    color: #F8F9FA;
+    border: 1px solid #F8F9FA;
+    box-shadow: #F8F9FA 5px 5px 0px 0px;
+    font-family: 'Esteban';
+    font-size: 16px;
+}
+.contactBtn:focus {
+    outline: none;
+}
+.contactBtn:active{
+    box-shadow: none;
+    transform: translate(4px, 4px);
+}

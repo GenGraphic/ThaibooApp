@@ -1,0 +1,50 @@
+.body {
+    position: relative;
+    height: fit-content;
+}
+.zoomCont {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+.zoomIcon {
+    width: 30px;
+    height: 30px;
+}
+.body:hover > .zoomCont {
+    opacity: 1;
+}
+.bigImgCont {
+    position: fixed;
+    z-index: 20;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigImg {
+    object-fit: cover;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px white;
+    position: relative;
+}
+.closeIcon {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}

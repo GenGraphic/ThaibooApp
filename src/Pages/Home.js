@@ -1,0 +1,122 @@
+import React, { useEffect } from "react";
+import '../styles.css';
+import {Container, Row, Col} from "react-bootstrap";
+import GaleryImg from "../Components/GaleryImg";
+import Menu from "../Components/Menu";
+import AOS from "aos";
+import 'aos/dist/aos.css';
+import CookieConsent from "react-cookie-consent";
+
+function App() {
+
+  useEffect(() => {
+    AOS.init({duration: 2000})
+  }, [])
+
+  return (
+    <>
+      <Menu
+      homeColor={'#FF6D00'}
+      uberUns={'#FFF'}
+      speisekarte={'#FFF'}
+      contact={'#FFF'}
+      />
+
+      <Container fluid className="heroPage p-0">
+        <Row className="textCont justify-content-center align-items-center m-0">
+          <Col className="text-center p-0">
+            <video autoPlay loop muted className="vidseoBkg">
+              <source src={require('../images/home/bkgVideo.mp4')}/>
+            </video>
+            <h2 className="txtWelcome">WILKOMMEN BEI</h2>
+            <h1 className="txtName" data-aos="fade-down">ThaiBoo</h1>
+            <div data-aos="fade-down" data-aos-delay="500">
+              <p className="txtInfo">Landshuter Str. 9, 85368 Moosburg an der Isar</p>
+              <p id="tel" className="txtInfo">Tel: 
+                <a className="telefonNr" href="+087617266572" style={{color: '#FFF'}}>087617266572</a>
+              </p>
+            </div>
+            
+          </Col>
+        </Row>
+      </Container>
+
+      <Container className="mt-5">
+        <Row>
+          <Col>
+            <p className="titleParagraph">Thaiboo</p>
+            <p className="subtitle">Erleben Sie die Aromen Asiens in jedem Bissen!</p>
+            <img loading="lazy" className="paragraphIcon" src={require('../images/home/paragraph.png')} alt="Paragraph Icon"/>
+            <p className="paragraph mt-3">Willkommen im ThaiBoo! Hier erwartet Sie eine vielfältige Auswahl an köstlichen Gerichten aus verschiedenen Ländern Asiens. 
+              Unser erfahrenes Küchenteam bereitet jedes Gericht mit frischen Zutaten und traditionellen Techniken zu, um Ihnen ein authentisches 
+              Geschmackserlebnis zu bieten. Ob Sie nun eine Vorliebe für scharfe thailändische Currygerichte haben oder lieber die delikate japanische 
+              Küche genießen möchten, bei uns finden Sie sicherlich etwas, das Ihrem Geschmack entspricht. Lassen Sie sich von uns auf eine kulinarische 
+              Reise durch Asien mitnehmen und genießen Sie Ihr Essen in gemütlicher Atmosphäre.
+            </p>
+            <img alt="Team Foto" loading="lazy" className="teamImg" src={require('../images/home/team.jpg')}/>
+          </Col>
+          <Col>
+            <div className="puzzleCont">
+              <div className="whiteSquare">
+                <div className="puzzlePiece" data-aos="fade-right"></div>
+              </div>
+            </div>
+            <p className="titleParagraph">Thaiboo Team</p>
+            <p className="subtitle">Gemeinsam schaffen wir unvergessliche Geschmackserlebnisse für unsere Gäste!</p>
+            <img className="paragraphIcon" src={require('../images/home/paragraph.png')} alt="Paragraph Icon"/>
+            <p className="paragraph mt-3">Unser Team im asiatischen Restaurant besteht aus leidenschaftlichen und erfahrenen Köchen, die mit viel Liebe und Hingabe jede Speise zubereiten. 
+              Jeder Mitarbeiter trägt dazu bei, dass Sie als Gast ein unvergessliches kulinarisches Erlebnis genießen können. Wir sind stolz auf unser Team und schätzen ihre harte 
+              Arbeit und ihr Engagement, um sicherzustellen, dass jeder Gast sich bei uns wie zu Hause fühlt.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container className="mt-5">
+        <Row>
+          <Col className="d-flex flex-row justify-content-between">
+            <GaleryImg
+              image={require('../images/galery/5.jpeg')}/>
+            <GaleryImg
+              image={require('../images/galery/2.jpeg')}/>
+            <GaleryImg
+              image={require('../images/galery/3.jpeg')}/>
+            <GaleryImg
+              image={require('../images/galery/7.jpeg')}/>
+          </Col>
+        </Row>
+        <Row className="mt-5">
+          <Col className="d-flex flex-row justify-content-between">
+            <GaleryImg
+              image={require('../images/galery/1.jpeg')}/>
+            <GaleryImg
+              image={require('../images/galery/6.jpeg')}/>
+            <GaleryImg
+              image={require('../images/galery/4.jpeg')}/>
+            <GaleryImg
+              image={require('../images/galery/8.jpeg')}/>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container fluid className="mt-5 p-0">
+        <Row className="bannerRow no-gutters">
+          <Col className="d-flex align-items-end">
+            <p className="glassMotto">Entdecke den Geschmack Asiens auf deinem Teller!</p>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container fluid>
+        <Row className='bg-dark'>
+          <Col>
+            <p className="m-0 text-center text-white">© All rights reserved to ThaiBoo</p>
+          </Col>
+        </Row>
+      </Container>
+      <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent>
+    </>
+  )
+}
+
+export default App;

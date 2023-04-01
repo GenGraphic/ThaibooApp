@@ -1,0 +1,75 @@
+.heroSectionSpeisekarte {
+    background-image: url('../../images/speisekarte/heroImg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.innerFrame p {
+    font-family: 'Clicker';
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+}
+.innerFrame h1 {
+    font-family: 'Esteban';
+    font-size: 60px;
+    margin: 0;
+    text-align: center;
+}
+.categoryName {
+    background-color: #FF6D00;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+    color: #FFF;
+    display: flex;
+}
+
+.priceTabels {
+    background: linear-gradient(#9D0208, #6A040F);
+    color: #FFF;
+    font-family: 'Esteban';
+}
+.smallIcon{
+    width: 20px;
+    height: 20px;
+}
+.speisekarteCont {
+    background-image: url('../../images/speisekarte/bkg.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+.bubbleTable {
+    color: #FFF;
+    font-family: 'Esteban';
+}
+.bubbleTableHeader {
+    background-color: rgba(106, 4 ,15, 0.5);
+}
+.bubbleItemsCont {
+    background-color: rgba(17, 21, 28, 0.5);
+}
+.drinksTable{
+    color: #FFF;
+}
+.drinksPrice {
+    background-color: rgba(106, 4 ,15, 0.5);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+}
+.extraTable {
+    background-color: rgba(255, 109, 0, 0.5);
+    border-radius: 10px;
+}
+.extraTitle {
+    padding: 10px;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 1.3rem;
+    font-family: 'Esteban';
+    background-color: #FF6D00;
+    position: absolute;
+    left: 10px;
+    top: -20px;
+}
