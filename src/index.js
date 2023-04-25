@@ -14,11 +14,9 @@ import { SpeisekarteProvider } from './SpeisekarteContext';
 const rootElement = document.getElementById('root')
 const root = createRoot(rootElement)
 root.render(
-  <React.StrictMode>
     <HashRouter basename='/'>
       <SpeisekarteProvider>
         <App />
       </SpeisekarteProvider>
     </HashRouter>
-  </React.StrictMode>
 );
