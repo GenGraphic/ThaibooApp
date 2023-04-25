@@ -25,8 +25,8 @@ function App() {
       <Container fluid className="heroPage p-0">
         <Row className="textCont justify-content-center align-items-center m-0">
           <Col className="text-center p-0">
-            <video autoPlay loop muted className="vidseoBkg">
-              <source src={require('../images/home/bkgVideo.mp4')}/>
+            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"className="vidseoBkg">
+              <source src={require('../images/home/bkgVideo.mp4')} type="video/mp4"/>
             </video>
             <div className="position-absolute top-50 start-50 translate-middle">
               <h2 className="txtWelcome">WILKOMMEN BEI</h2>
