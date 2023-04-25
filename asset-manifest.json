@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ThaibooApp/static/css/main.3e8232ae.css",
-    "main.js": "/ThaibooApp/static/js/main.e0d63151.js",
+    "main.js": "/ThaibooApp/static/js/main.85399bbe.js",
     "static/media/bkgVideo.mp4": "/ThaibooApp/static/media/bkgVideo.f2ace54c923d60aa33c0.mp4",
     "static/media/banner1.jpg": "/ThaibooApp/static/media/banner1.37ba7ccfb24744ab2c4a.jpg",
     "static/media/bkg.jpg": "/ThaibooApp/static/media/bkg.2ba0bad92f8ff4f658c5.jpg",
@@ -39,10 +39,10 @@
     "static/media/paragraph.png": "/ThaibooApp/static/media/paragraph.7831b74b00d23e0e70d2.png",
     "index.html": "/ThaibooApp/index.html",
     "main.3e8232ae.css.map": "/ThaibooApp/static/css/main.3e8232ae.css.map",
-    "main.e0d63151.js.map": "/ThaibooApp/static/js/main.e0d63151.js.map"
+    "main.85399bbe.js.map": "/ThaibooApp/static/js/main.85399bbe.js.map"
   },
   "entrypoints": [
     "static/css/main.3e8232ae.css",
-    "static/js/main.e0d63151.js"
+    "static/js/main.85399bbe.js"
   ]
 }
