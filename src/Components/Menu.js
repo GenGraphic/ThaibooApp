@@ -1,5 +1,6 @@
 import React from 'react';
 import {Container, Nav, Navbar} from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import './css/Menu.css';
 
 const Menu = ({homeColor, uberUns, speisekarte, contact}) => {
@@ -23,10 +24,10 @@ const Menu = ({homeColor, uberUns, speisekarte, contact}) => {
         <Navbar.Toggle aria-controls="basic-navbar-nav order-lg-0"/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="links" href='/' style={{color: homeColor}}>Home</Nav.Link>
-            <Nav.Link className="links" href='/UberUns' style={{color: uberUns}}>Über uns</Nav.Link>
-            <Nav.Link className="links" href='/Speisekarte' style={{color: speisekarte}}>Speisekarte</Nav.Link>
-            <Nav.Link className="links" href='/Kontakt' style={{color: contact}}>Kontakt</Nav.Link>
+            <Link className="links" to='/' style={{color: homeColor}}>Home</Link>
+            <Link className="links" to='/UberUns' style={{color: uberUns}}>Über uns</Link>
+            <Link className="links" to='/Speisekarte' style={{color: speisekarte}}>Speisekarte</Link>
+            <Link className="links" to='/Kontakt' style={{color: contact}}>Kontakt</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
