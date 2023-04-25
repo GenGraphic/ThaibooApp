@@ -4,17 +4,22 @@
     background-size: cover;
     height: 90vh;
 }
+.innerFrame {
+    border: 1px solid #FF6D00
+}
 .innerFrame p {
     font-family: 'Clicker';
     font-size: 30px;
     margin: 0;
     text-align: center;
+    color: white
 }
 .innerFrame h1 {
     font-family: 'Esteban';
     font-size: 60px;
     margin: 0;
     text-align: center;
+    color: #FFF;
 }
 .categoryName {
     background-color: #FF6D00;
@@ -69,7 +74,4 @@
     font-size: 1.3rem;
     font-family: 'Esteban';
     background-color: #FF6D00;
-    position: absolute;
-    left: 10px;
-    top: -20px;
 }

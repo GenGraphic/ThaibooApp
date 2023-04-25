@@ -7,7 +7,7 @@
 }
 .titleOuterFrame {
     background-color: #11151C;
-    width: 500px;
+    max-width: 500px;
     height: 200px;
     border-radius: 5px;
     justify-content: center;
@@ -15,8 +15,8 @@
     display: flex;
 }
 .titleInnerFrame {
-    width: 450px;
-    height: 150px;
+    width: 90%;
+    height: 90%;
     border: 1px solid #FF6D00;
     justify-content: center;
     align-items: center;
@@ -56,14 +56,15 @@
 }
 .mottoOutterFrame {
     width: 830px;
-    height: 150px;
+    height: fit-content;
     background-color: #11151c80 ;
     backdrop-filter: blur(5px);
     border-radius: 5px;
+    padding: 20px;
 }
 .mottoInnerFrame {
     width: 780px;
-    height: 100px;
+    height: fit-content;
     border: 1px solid #FF6D00;
 }
 .motto {
@@ -71,4 +72,7 @@
     color: #FFF;
     font-size: 24px;
     text-align: center;
+}
+.imgTable {
+    border: 5px solid #000;
 }

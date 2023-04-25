@@ -28,21 +28,24 @@ function App() {
             <video autoPlay loop muted className="vidseoBkg">
               <source src={require('../images/home/bkgVideo.mp4')}/>
             </video>
-            <h2 className="txtWelcome">WILKOMMEN BEI</h2>
-            <h1 className="txtName" data-aos="fade-down">ThaiBoo</h1>
-            <div data-aos="fade-down" data-aos-delay="500">
-              <p className="txtInfo">Landshuter Str. 9, 85368 Moosburg an der Isar</p>
-              <p id="tel" className="txtInfo">Tel: 
-                <a className="telefonNr" href="+087617266572" style={{color: '#FFF'}}>087617266572</a>
-              </p>
+            <div className="position-absolute top-50 start-50 translate-middle">
+              <h2 className="txtWelcome">WILKOMMEN BEI</h2>
+              <h1 className="txtName" data-aos="fade-down">ThaiBoo</h1>
+              <div data-aos="fade-down" data-aos-delay="500">
+                <p className="txtInfo">Landshuter Str. 9, 85368 Moosburg an der Isar</p>
+                <p id="tel" className="txtInfo">Tel: 
+                  <a className="telefonNr" href="tel:+4915157321761" style={{color: '#FFF'}}>087617266572</a>
+                </p>
+              </div>
             </div>
+            
             
           </Col>
         </Row>
       </Container>
 
       <Container className="mt-5">
-        <Row>
+        <Row className="d-flex justify-content-center align-items-center">
           <Col>
             <p className="titleParagraph">Thaiboo</p>
             <p className="subtitle">Erleben Sie die Aromen Asiens in jedem Bissen!</p>
@@ -53,16 +56,23 @@ function App() {
               Küche genießen möchten, bei uns finden Sie sicherlich etwas, das Ihrem Geschmack entspricht. Lassen Sie sich von uns auf eine kulinarische 
               Reise durch Asien mitnehmen und genießen Sie Ihr Essen in gemütlicher Atmosphäre.
             </p>
-            <img alt="Team Foto" loading="lazy" className="teamImg" src={require('../images/home/team.jpg')}/>
           </Col>
-          <Col>
+          <Col className="col-auto">
             <div className="puzzleCont">
               <div className="whiteSquare">
                 <div className="puzzlePiece" data-aos="fade-right"></div>
               </div>
             </div>
+          </Col>
+        </Row>
+
+        <Row className="mt-5 d-flex justify-content-center align-items-center">
+          <Col className="col-auto">
+            <img alt="Team Foto" loading="lazy" className="teamImg" src={require('../images/home/team.jpg')}/>
+          </Col>
+          <Col>
             <p className="titleParagraph">Thaiboo Team</p>
-            <p className="subtitle">Gemeinsam schaffen wir unvergessliche Geschmackserlebnisse für unsere Gäste!</p>
+            <p className="subtitle text-center">Gemeinsam schaffen wir unvergessliche Geschmackserlebnisse für unsere Gäste!</p>
             <img className="paragraphIcon" src={require('../images/home/paragraph.png')} alt="Paragraph Icon"/>
             <p className="paragraph mt-3">Unser Team im asiatischen Restaurant besteht aus leidenschaftlichen und erfahrenen Köchen, die mit viel Liebe und Hingabe jede Speise zubereiten. 
               Jeder Mitarbeiter trägt dazu bei, dass Sie als Gast ein unvergessliches kulinarisches Erlebnis genießen können. Wir sind stolz auf unser Team und schätzen ihre harte 
@@ -72,9 +82,9 @@ function App() {
         </Row>
       </Container>
 
-      <Container className="mt-5">
+      <Container fluid className="mt-5">
         <Row>
-          <Col className="d-flex flex-row justify-content-between">
+          <Col className="d-flex flex-row justify-content-center flex-wrap gap-5">
             <GaleryImg
               image={require('../images/galery/5.jpeg')}/>
             <GaleryImg
@@ -86,7 +96,7 @@ function App() {
           </Col>
         </Row>
         <Row className="mt-5">
-          <Col className="d-flex flex-row justify-content-between">
+          <Col className="d-flex flex-row justify-content-center flex-wrap gap-5">
             <GaleryImg
               image={require('../images/galery/1.jpeg')}/>
             <GaleryImg

@@ -23,7 +23,6 @@ export function SpeisekarteProvider({ children }) {
                     name: '2. GAI STAY 3 Stück',
                     description:'Hähnchenbrustfilet gewürz mit Curry und serviert mit Erdnusssoßen',
                     price: [{Normal: 5.90 + '€'}],
-                    image: require('./images/speisekarte/1.png')
                 },
                 {
                     name: '3. GIAOW THOD 6 Stück',
@@ -63,7 +62,6 @@ export function SpeisekarteProvider({ children }) {
                 {
                     name: '9. TOM YUM',
                     description: 'Die klassische sauer-scharfe Thai Suppe mit Pilzen, Zwiebeln, Zitronengras und Galgant Kokosnussmilch (4,a,d,g,f)',
-                    image: require('./images/speisekarte/2.png'),
                     price: [{Normal: ''}],
                 },
                 {
@@ -104,7 +102,7 @@ export function SpeisekarteProvider({ children }) {
                     name: '13. GAENG KIOW WAN (Grün)',
                     description: 'Cremiges grünes Thai Curry mit Kokosmilch, Gemüse und Reis (a,b,c,d,e,f,i)',
                     price: [{Normal: ''}],
-                    image: require('./images/speisekarte/3.png')
+                    image: require('./images/speisekarte/gaeng_kiow.png')
                 },
                 {
                     name: '14. MASSAMAN',
@@ -139,7 +137,7 @@ export function SpeisekarteProvider({ children }) {
                     name: '17. PAD THAI - Reisnudeln',
                     description: 'Gebratene Reisnudel in Tamarindsauce mit Eier und verschiedene Gemüse (2,a,c,d,e,f,g)',
                     price: [{Normal: ''}],
-                    image: require('./images/speisekarte/1.png')
+                    image: require('./images/speisekarte/pad-thai.png')
                 },
                 {
                     name: '18. PAD SIE IEW',
@@ -154,7 +152,6 @@ export function SpeisekarteProvider({ children }) {
                 {
                     name: '20. NUDEL THAIBOO',
                     description: 'Penne mit Hähnchen und verschiedene Gemüse',
-                    image: require('./images/speisekarte/3.png'),
                     price: [{Normal: ''}],
                 },
                 {
@@ -199,7 +196,6 @@ export function SpeisekarteProvider({ children }) {
                     name: '26. PAD GRA PAO',
                     description: 'Gebraten mit Bambus, Chili, Zwiebeln und scharfem Thai-Basilikum (2,4,a,c,d,f,o)',
                     extra: 'mit Spiegelei + 1,50€',
-                    image: require('./images/speisekarte/3.png'),
                     price: [{Normal: ''}],
                 },
                 {
@@ -293,7 +289,7 @@ export function SpeisekarteProvider({ children }) {
                     name: '35. YUM NUA',
                     description: 'Rindflseisch salat mit verschiedene Gemüse hausgemachte sauce',
                     price: [{Normal: 12.00 + '€'}],
-                    image: require('./images/speisekarte/3.png')
+                    image: require('./images/speisekarte/yam_nua.png')
                 }
             ],
             extra: [
@@ -351,6 +347,7 @@ export function SpeisekarteProvider({ children }) {
                     name: '37. Apfeltasche mit Vanilleeis',
                     description: '',
                     price: [{Normal: 5.90 + '€'}],
+                    image: require('./images/speisekarte/banana-split.png')
                 },
                 {
                     name: '38. Knusprig frittierte Bananen im Teigmantel mit Vanilleeis',

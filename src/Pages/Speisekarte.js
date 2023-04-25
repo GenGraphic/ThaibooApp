@@ -30,9 +30,9 @@ const Speisekarte = () => {
 
       <Container fluid className='heroSectionSpeisekarte'>
         <Row className='h-100'>
-          <Col className='col-12 d-flex justify-content-end align-items-center'>
-            <div className='outerFrame'>
-              <div className='innerFrame'>
+          <Col className='col-12 d-flex justify-content-center align-items-center justify-content-md-end'>
+            <div className='bg-dark p-3'>
+              <div className='innerFrame' style={{height: 150, maxWidth: 500}}>
                 <p>Thaiboo</p>
                 <h1>Speisekarte</h1>
               </div>
@@ -43,7 +43,7 @@ const Speisekarte = () => {
 
       <Container className='mt-5 pt-3 speisekarteCont'>
         <Row className=''>
-          <Col>
+          <Col className='col-12 col-lg-6'>
             <h4 className='categoryName'>VORSPEISEN</h4>
             {SortCategory('VORSPEISEN').map((item) => {
               return(
@@ -106,7 +106,7 @@ const Speisekarte = () => {
               </Col>
             </Row>
           </Col>
-          <Col>
+          <Col className='col-12 col-lg-6 mt-3 mt-lg-0'>
             <h4 className='categoryName'>HAUPTGERICHTE MIT THAI-CURRYSAUCE</h4>
             {SortCategory('HAUPTGERICHTE MIT THAI-CURRYSAUCE').map((item) => {
               return(
@@ -242,7 +242,7 @@ const Speisekarte = () => {
           </Col>
         </Row>
         <Row className='mt-3'>
-          <Col>
+          <Col className='col-12 col-lg-6'>
             <h4 className='categoryName'>REISGERICHTE MIT SOJASAUCE</h4>
             {SortCategory('REISGERICHTE MIT SOJASAUCE').map((item) => {
                 return(
@@ -305,7 +305,7 @@ const Speisekarte = () => {
               </Col>
             </Row>
           </Col>
-          <Col>
+          <Col className='col-12 col-lg-6 mt-3 mt-lg-0'>
             <h4 className='categoryName'>GEBRATENER REIS</h4>
             {SortCategory('GEBRATENER REIS').map((item) => {
                 return(
@@ -373,8 +373,8 @@ const Speisekarte = () => {
                 )
               })
             }
-            <Row className='extraTable p-2 position-relative pt-5'>
-              <p className='extraTitle'>EXTRA</p>
+            <Row className='extraTable p-2 position-relative pt-5 mt-5'>
+              <p className='extraTitle position-absolute top-0 start-50 translate-middle'>EXTRA</p>
               <Col className='textWhite d-flex justify-content-between border-right'>
                 <div>
                   <p>Gemüse</p>
@@ -415,7 +415,7 @@ const Speisekarte = () => {
           </Col>
         </Row>
         <Row className='mt-3'>
-          <Col>
+          <Col className='col-12 col-lg-6'>
             <h4 className='categoryName'>NACHTISCH</h4>
             {SortCategory('NACHTISCH').map((item) => {
                 return(
@@ -434,9 +434,13 @@ const Speisekarte = () => {
             <Row>
               <Col>
                 <div className='bubbleTable'>
-                  <div className='bubbleTableHeader p-2'>
+                  <div className='bubbleTableHeader p-2 position-relative'>
                     <h4>Früchte & Soda Mix</h4>
                     <p className='m-0'>5,00€</p>
+                    <img 
+                    className='position-absolute top-0 start-100 translate-middle'
+                    style={{width: 80}}
+                    src={require('../images/speisekarte/bubleTee.png')} alt='BubleTee'/>
                   </div>
                   <div className='bubbleItemsCont'>
                     <ul>
@@ -491,7 +495,7 @@ const Speisekarte = () => {
               </Col>
             </Row>
           </Col>
-          <Col>
+          <Col className='col-12 col-lg-6'>
             <h4 className='categoryName'>GETRÄNKE</h4>
             <Row>
               <Col>

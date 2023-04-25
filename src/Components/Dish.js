@@ -19,7 +19,7 @@ const Dish = ({name, description, price, image}) => {
                         <div className='d-flex ml-5 justify-content-between flex-fill textWhite'>
                           <div className='d-flex'>
                             <img src={item.icon} className='smallIcon' alt='Icon'/>
-                            <p className='m-0 pl-2'>{Object.getOwnPropertyNames(item)}</p>
+                            <p className='m-0 pl-2'>{Object.getOwnPropertyNames(item)[0]}</p>
                           </div>
                           <p className='m-0'>{Object.values(item)[0]}</p>
                         </div>

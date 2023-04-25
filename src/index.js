@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
 import './styles.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import './font-family/Esteban/Esteban-Regular.ttf';
 import './font-family/Clicker_Script/ClickerScript-Regular.ttf';
 

@@ -24,15 +24,15 @@ const UberUns = () => {
 
       <Container fluid className='heroSection'>
         <Row className='h-75'>
-          <Col className="d-flex align-items-center">
+          <Col className="d-flex align-items-center justify-content-center justify-content-lg-start">
             <div 
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            className='titleOuterFrame'>
+            className='titleOuterFrame w-75'>
               <div className='titleInnerFrame'>
                 <p>Tchaiboo</p>
-                <h1>Über uns</h1>
+                <h2>Über uns</h2>
               </div>
             </div>
           </Col>
@@ -41,10 +41,10 @@ const UberUns = () => {
 
       <Container className='mt-5 mb-5'>
         <Row className='mb-5'>
-          <Col className='col-auto'>
+          <Col className='col-auto mx-auto'>
             <img data-aos="fade-up-right" src={require('../images/about/insideImg.jpeg')} alt='Inside' className='decoImg'/>
           </Col>
-          <Col>
+          <Col className='col-12 col-lg'>
             <h5 className='titleParagraph'>Über Thaiboo Restaurant</h5>
             <hr style={{backgroundColor: '#FF6D00'}}/>
             <p data-aos="fade-down-left" className='paragraph'>
@@ -56,7 +56,7 @@ const UberUns = () => {
         </Row>
 
         <Row>
-          <Col>
+          <Col className='col-12 col-lg'>
             <h5 className='titleParagraph'>Köchteam</h5>
             <hr style={{backgroundColor: '#FF6D00'}}/>
             <p data-aos="fade-up-right" className='paragraph'>
@@ -66,7 +66,7 @@ const UberUns = () => {
               wissen werden.
             </p>
           </Col>
-          <Col className='col-auto'>
+          <Col className='col-auto mx-auto'>
             <img data-aos="fade-up-left" src={require('../images/about/kochImg.jpeg')} alt='Inside' className='decoImg'/>
           </Col>
         </Row>
@@ -81,6 +81,33 @@ const UberUns = () => {
               </p>
             </div>
           </div>
+        </Row>
+      </Container>
+
+      <Container className='mt-5 d-flex flex-lg-row flex-column'>
+        <Row className='w-100 mx-auto'>
+          <Col className="d-flex flex-column justify-content-between">
+            <img src={require('../images/about/1.jpeg')} alt='Katering' className='imgTable w-100'/>
+            <img src={require('../images/about/4.jpeg')} alt='Katering' className='imgTable w-100'/>
+            <img src={require('../images/about/6.jpeg')} alt='Katering' className='imgTable w-100'/>
+          </Col>
+          <Col className="d-flex flex-column justify-content-between">
+            <img src={require('../images/about/2.jpeg')} alt='Katering' className='imgTable w-100'/>
+            <img src={require('../images/about/5.jpeg')} alt='Katering' className='imgTable w-100'/>
+          </Col>
+        </Row>
+        <Row className='w-100 p-3'>
+          <Col className='my-auto'>
+            <h1 className='titleParagraph'>Catering</h1>
+            <img className="paragraphIcon" src={require('../images/home/paragraph.png')} alt="Paragraph Icon"/>
+            <p className='paragraph'>
+              Unser Restaurant bietet nicht nur ein unvergessliches kulinarisches Erlebnis in unseren Räumlichkeiten, sondern auch einen Catering-Service für Ihre besonderen Anlässe. 
+              Egal, ob Sie eine Hochzeit, eine Firmenveranstaltung oder eine private Feier planen, unser erfahrenes Catering-Team wird Ihnen helfen, das perfekte Menü für Ihre Gäste zu kreieren. 
+              Wir verwenden nur die besten und frischesten Zutaten und bereiten alle Gerichte mit viel Liebe und Sorgfalt zu, um sicherzustellen, dass Ihre Gäste ein unvergessliches 
+              kulinarisches Erlebnis haben werden. Kontaktieren Sie uns noch heute, um mehr über unsere Catering-Dienstleistungen zu erfahren und lassen Sie uns Ihnen dabei helfen, 
+              Ihre Veranstaltung zu einem vollen Erfolg zu machen.
+            </p>
+          </Col>
         </Row>
       </Container>
 

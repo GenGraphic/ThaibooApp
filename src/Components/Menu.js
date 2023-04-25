@@ -1,33 +1,36 @@
 import React from 'react';
 import {Container, Nav, Navbar} from "react-bootstrap";
-import { Link } from 'react-router-dom';
 import './css/Menu.css';
 
 const Menu = ({homeColor, uberUns, speisekarte, contact}) => {
+
   return (
-    <Navbar className="navBar">
-        <Container className="d-flex">
-          <Navbar.Brand href="#home">
-            <img
-              alt="logo"
-              loading="lazy"
-              className="logo"
-              src={require('../images/logo.png')}
-          />
-          </Navbar.Brand>
+    <Navbar bg="dark" expand="lg" variant='dark'>
+      <Container>
+        <Navbar.Brand href="#home">
+        <img
+            alt="logo"
+            loading="lazy"
+            className="logo"
+            src={require('../images/logo.png')}
+        />
+        </Navbar.Brand>
+
+        <button className="contactBtn order-lg-1">
+            <a href='tel: +4915157321761' style={{color: 'white', textDecorationLine: 'none'}}>Jetzt bestellen</a>
+        </button>
+
+        <Navbar.Toggle aria-controls="basic-navbar-nav order-lg-0"/>
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link className="links" to='/' style={{color: homeColor}}>Home</Link>
-            <Link className="links" to='/ÜberUns' style={{color: uberUns}}>Über uns</Link>
-            <Link className="links" to='/Speisekarte' style={{color: speisekarte}}>Speisekarte</Link>
-            <Link className="links" to='/Kontakt' style={{color: contact}}>Kontakt</Link>
+            <Nav.Link className="links" href='/' style={{color: homeColor}}>Home</Nav.Link>
+            <Nav.Link className="links" href='/ÜberUns' style={{color: uberUns}}>Über uns</Nav.Link>
+            <Nav.Link className="links" href='/Speisekarte' style={{color: speisekarte}}>Speisekarte</Nav.Link>
+            <Nav.Link className="links" href='/Kontakt' style={{color: contact}}>Kontakt</Nav.Link>
           </Nav>
-
-          <button className="contactBtn">
-            Jetzt bestellen
-          </button>
-
-        </Container>
-      </Navbar>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   )
 }
 
