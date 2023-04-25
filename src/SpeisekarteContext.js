@@ -14,7 +14,7 @@ export function SpeisekarteProvider({ children }) {
                         {Vegetarisch : 3.60 + '€',
                         icon: require('./images/icons/plant-based.png')
                         },
-                        {RindFleish : 4.90 + '€',
+                        {RindFleish : 4.90 + "€",
                         icon: require('./images/icons/cow-silhouette.png')
                         }
                     ]
