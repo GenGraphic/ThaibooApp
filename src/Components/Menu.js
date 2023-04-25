@@ -24,7 +24,7 @@ const Menu = ({homeColor, uberUns, speisekarte, contact}) => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link className="links" href='/' style={{color: homeColor}}>Home</Nav.Link>
-            <Nav.Link className="links" href='/ÜberUns' style={{color: uberUns}}>Über uns</Nav.Link>
+            <Nav.Link className="links" href='/UberUns' style={{color: uberUns}}>Über uns</Nav.Link>
             <Nav.Link className="links" href='/Speisekarte' style={{color: speisekarte}}>Speisekarte</Nav.Link>
             <Nav.Link className="links" href='/Kontakt' style={{color: contact}}>Kontakt</Nav.Link>
           </Nav>
