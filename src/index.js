@@ -14,7 +14,7 @@ import { SpeisekarteProvider } from './SpeisekarteContext';
 const rootElement = document.getElementById('root')
 const root = createRoot(rootElement)
 root.render(
-    <HashRouter basename='/'>
+    <HashRouter basename={window.location.pathname || ''}>
       <SpeisekarteProvider>
         <App />
       </SpeisekarteProvider>
