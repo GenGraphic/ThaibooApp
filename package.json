@@ -1,8 +1,8 @@
 {
-  "homepage": "https://GenGraphic.github.io/",
+  "homepage": "https://GenGraphic.github.io/ThaibooApp",
   "name": "thaiboo",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@react-navigation/native": "^6.1.6",
     "@testing-library/jest-dom": "^5.16.5",
