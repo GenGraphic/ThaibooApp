@@ -10,7 +10,7 @@ import UberUns from './Pages/UberUns';
 const App = () => {
   return (
     <div className='App'> 
-       <Routes basename="/ThaibooApp">
+       <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='Kontakt' element={<Kontakt />}/>
           <Route path='Speisekarte' element={<Speisekarte />}/>
