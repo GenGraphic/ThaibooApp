@@ -47,7 +47,7 @@ const UberUns = () => {
           <Col className='col-12 col-lg'>
             <h5 className='titleParagraph'>Über Thaiboo Restaurant</h5>
             <hr style={{backgroundColor: '#FF6D00'}}/>
-            <p data-aos="fade-down-left" className='paragraph'>
+            <p data-aos="fade-down-left" className='paragraph' style={{fontWeight: 600}}>
             Mit einer Leidenschaft für authentische Thailändische Küche bietet unser Restaurant eine breite Palette an Gerichten mit verschiedenen Aromen und Geschmacksrichtungen. 
             Unsere warme und einladende Atmosphäre eignet sich perfekt für ein romantisches Abendessen oder einen Abend mit Freunden. Wir freuen uns darauf, Sie in unserem 
             asiatischen Restaurant begrüßen zu dürfen und Ihre Geschmacksknospen zu verwöhnen!
@@ -59,7 +59,7 @@ const UberUns = () => {
           <Col className='col-12 col-lg'>
             <h5 className='titleParagraph'>Kochteam</h5>
             <hr style={{backgroundColor: '#FF6D00'}}/>
-            <p data-aos="fade-up-right" className='paragraph'>
+            <p data-aos="fade-up-right" className='paragraph' style={{fontWeight: 600}}>
               Unser talentiertes Team von Köchen hat jahrelange Erfahrung in der Zubereitung von köstlichen asiatischen Gerichten und legt Wert auf die Verwendung von frischen und 
               hochwertigen Zutaten. Sie bringen ihre Leidenschaft für die asiatische Küche in jedes Gericht ein und bereiten alles mit viel Liebe und Sorgfalt zu. Jeder Bissen wird Sie 
               begeistern und Sie auf eine kulinarische Reise mitnehmen. Wir sind stolz darauf, ein solch talentiertes Team von Köchen zu haben und wissen, dass Sie ihre Arbeit zu schätzen 
@@ -76,7 +76,7 @@ const UberUns = () => {
         <Row className='h-100 justify-content-center align-items-end'>
           <div className='mottoOutterFrame d-flex justify-content-center align-items-center'>
             <div className='mottoInnerFrame'>
-              <p className='motto'>
+              <p className='motto' style={{fontWeight: 600}}>
               Genießen Sie jetzt auch  auch Unsere Leckeren Bubble Tea’s. Wir bieten Milchtea’s Früchtetea’s und Sodamix.
               </p>
             </div>
@@ -100,7 +100,7 @@ const UberUns = () => {
           <Col className='my-auto'>
             <h1 className='titleParagraph'>Catering</h1>
             <img className="paragraphIcon" src={require('../images/home/paragraph.png')} alt="Paragraph Icon"/>
-            <p className='paragraph'>
+            <p className='paragraph' style={{fontWeight: 600}}>
               Unser Restaurant bietet nicht nur ein unvergessliches kulinarisches Erlebnis in unseren Räumlichkeiten, sondern auch einen Catering-Service für Ihre besonderen Anlässe. 
               Egal, ob Sie eine Hochzeit, eine Firmenveranstaltung oder eine private Feier planen, unser erfahrenes Catering-Team wird Ihnen helfen, das perfekte Menü für Ihre Gäste zu kreieren. 
               Wir verwenden nur die besten und frischesten Zutaten und bereiten alle Gerichte mit viel Liebe und Sorgfalt zu, um sicherzustellen, dass Ihre Gäste ein unvergessliches 

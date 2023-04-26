@@ -10,7 +10,7 @@ const Dish = ({name, description, price, image}) => {
         <Row>
             <Col>
                 <h4 className='dishTitle'>{name}</h4>
-                <p className='dishDescription'>{description}</p>
+                <p className='dishDescription' style={{fontWeight: 600}}>{description}</p>
                 <p className='dishPrice'>{price[0].Normal}</p>
                 {price.length >= 2 &&
                   <div className='priceTable p-2 '>
