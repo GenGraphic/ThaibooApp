@@ -6,6 +6,7 @@ import Menu from "../Components/Menu";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 import CookieConsent from "react-cookie-consent";
+import Video from '../images/home/bkgVideo.mp4'
 
 function App() {
 
@@ -25,9 +26,13 @@ function App() {
       <Container fluid className="heroPage p-0">
         <Row className="textCont justify-content-center align-items-center m-0">
           <Col className="text-center p-0">
-            <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"className="vidseoBkg">
-              <source src={require('../images/home/bkgVideo.mp4')} type="video/mp4"/>
-            </video>
+            <div dangerouslySetInnerHTML={{__html: `
+              <video autoplay loop muted playsinline class='videoBkg'>
+                <source src=${Video} type="video/mp4"/>
+                  Your browser does not support the video tag.
+              </video>`,
+                }}
+            />       
             <div className="position-absolute top-50 start-50 translate-middle">
               <h2 className="txtWelcome">WILKOMMEN BEI</h2>
               <h1 className="txtName" data-aos="fade-down">ThaiBoo</h1>
@@ -110,7 +115,7 @@ function App() {
       </Container>
 
       <Container fluid className="mt-5 p-0">
-        <Row className="bannerRow no-gutters">
+        <Row className="bannerRow no-gutters w-100 m-0">
           <Col className="d-flex align-items-end">
             <p className="glassMotto">Entdecke den Geschmack Asiens auf deinem Teller!</p>
           </Col>

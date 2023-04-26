@@ -25,9 +25,10 @@ body {
     height: fit-content;
     overflow: hidden;
 }
-.vidseoBkg {
+.videoBkg {
     width: 100%;
     z-index: -5;
+    object-fit: cover;
 }
 .textCont {
     background-color: rgba(0, 0, 0, 0.4);
