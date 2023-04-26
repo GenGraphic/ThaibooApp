@@ -48,16 +48,16 @@ const UberUns = () => {
             <h5 className='titleParagraph'>Über Thaiboo Restaurant</h5>
             <hr style={{backgroundColor: '#FF6D00'}}/>
             <p data-aos="fade-down-left" className='paragraph'>
-              Mit einer Leidenschaft für authentische asiatische Küche bietet unser Restaurant eine breite Palette an Gerichten mit verschiedenen Aromen und Geschmacksrichtungen, 
-              inspiriert von der chinesischen, japanischen, thailändischen und vietnamesischen Küche. Unsere warme und einladende Atmosphäre eignet sich perfekt für ein romantisches 
-              Abendessen oder einen Abend mit Freunden. Wir freuen uns darauf, Sie in unserem asiatischen Restaurant begrüßen zu dürfen und Ihre Geschmacksknospen zu verwöhnen!
+            Mit einer Leidenschaft für authentische Thailändische Küche bietet unser Restaurant eine breite Palette an Gerichten mit verschiedenen Aromen und Geschmacksrichtungen. 
+            Unsere warme und einladende Atmosphäre eignet sich perfekt für ein romantisches Abendessen oder einen Abend mit Freunden. Wir freuen uns darauf, Sie in unserem 
+            asiatischen Restaurant begrüßen zu dürfen und Ihre Geschmacksknospen zu verwöhnen!
             </p>
           </Col>
         </Row>
 
         <Row>
           <Col className='col-12 col-lg'>
-            <h5 className='titleParagraph'>Köchteam</h5>
+            <h5 className='titleParagraph'>Kochteam</h5>
             <hr style={{backgroundColor: '#FF6D00'}}/>
             <p data-aos="fade-up-right" className='paragraph'>
               Unser talentiertes Team von Köchen hat jahrelange Erfahrung in der Zubereitung von köstlichen asiatischen Gerichten und legt Wert auf die Verwendung von frischen und 

@@ -236,10 +236,10 @@ export function SpeisekarteProvider({ children }) {
                     name: '31. KHAO PAD', 
                     description: 'Gebratener Reis mit Ei und Gemüse (2,4,a,c,f,g,o)',
                     price: [
-                        {Vegetarisch: '8.5€',
+                        {Vegetarisch: '8.50€',
                         icon: require('./images/icons/plant-based.png')
                         },
-                        {Tofu: '9.5€',
+                        {Tofu: '9.50€',
                         icon: require('./images/icons/tofu.png')
                         },
                         {Hähnchen: '9.50€',
