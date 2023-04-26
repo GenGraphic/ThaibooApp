@@ -111,6 +111,54 @@ const UberUns = () => {
         </Row>
       </Container>
 
+      <Container style={{height: 'fit-content', marginBottom: 20 }}>
+        <h2 className='text-center'>Hause Regeln</h2>
+        <Row className='h-100'>
+          <Col className='col-12 col-md-6 col-lg mt-3'>
+            <div className='CardRule h-100 w-100 bg-dark text-center p-3'>
+              <img 
+                src={require('../images/icons/no-pets-allowed.png')}
+                style={{width: 50}}
+                alt='No-Pet'
+              />
+              <p className='text-white text-center'>
+              Bitte beachten Sie, dass wir keine Hundenahrung anbieten. 
+              Wir bitten Sie daher, Ihre Hunde draußen zu lassen, während 
+              Sie bei uns speisen. Vielen Dank für Ihr Verständnis.
+              </p>
+            </div>
+          </Col>
+          <Col className='col-12 col-md-6 col-lg mt-3'>
+            <div className='CardRule CardRule h-100 w-100 bg-dark text-center p-3'>
+              <img 
+                src={require('../images/icons/cash-only.png')}
+                style={{width: 50}}
+                alt='Cash-Only'
+              />
+              <p className='text-white text-center'>
+              Bitte beachten Sie, dass wir ausschließlich Barzahlungen annehmen. 
+              Wir hoffen, dass Sie kein Problem damit haben, und versprechen, 
+              dass unser Essen jede Münze wert ist.
+              </p>
+            </div>
+          </Col>
+          <Col className='col-12 col-lg mt-3'> 
+            <div className='CardRule CardRule h-100 w-100 bg-dark text-center p-3'>
+              <img 
+                src={require('../images/icons/no-smoking.png')}
+                style={{width: 50}}
+                alt='Cash-Only'
+              />
+              <p className='text-white text-center'>
+              Bitte beachten Sie, dass Rauchen drinnen nicht erlaubt ist. 
+              Wir schätzen saubere Luft genauso wie saubere Teller. Danke für 
+              Ihre Zusammenarbeit!
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+
       <Container fluid>
         <Row className='bg-dark'>
           <Col>

@@ -31,8 +31,8 @@ const Kontakt = () => {
             <h5 className='text-center estebanFont'>TELEFONNUMMER</h5>
           </div>
           <Carousel.Caption>
-            <a href='tel: 087617266572'>087617266572</a> <br></br>
-            <a href='tel: 015157321761'>015157321761</a>
+            <a href='tel: 087617266572' className='display-6'>087617266572</a> <br></br>
+            <a href='tel: 015157321761' className='display-7'>015157321761</a>
           </Carousel.Caption>
         </Carousel.Item>
 
@@ -41,7 +41,8 @@ const Kontakt = () => {
             <h5 className='text-center estebanFont'>ÖFFNUNGSZEITEN</h5>
           </div>
           <Carousel.Caption>
-            <h3>Dienstag-Sonntag: 11:00-15:00/17:00-21:00</h3>
+            <h4>Dienstag-Sonntag: 11:00-15:00/17:00-21:00</h4>
+            <h5>Feiertagen: GEÖFFNET</h5>
             <p>Montag:Ruhetag</p>
           </Carousel.Caption>
         </Carousel.Item>

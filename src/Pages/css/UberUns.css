@@ -76,3 +76,8 @@
 .imgTable {
     border: 5px solid #000;
 }
+.CardRule {
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000;
+    border: 1px solid #FF6D00;
+}
