@@ -11,10 +11,10 @@ export function SpeisekarteProvider({ children }) {
                     name: '1. PO PIA THOD',
                     description: '3 knusprige Frühlingsrollen, gefüllt mit frischem Gemüse und Glasnudeln, serviert mit süß-saurem Thai-Dip (2,4,a,c,f,g,k,o)',
                     price: [
-                        {Vegetarisch : 3.60 + '€',
+                        {Vegetarisch : '3.60€',
                         icon: require('./images/icons/plant-based.png')
                         },
-                        {RindFleish : 4.90 + "€",
+                        {RindFleish : '4.90€',
                         icon: require('./images/icons/cow-silhouette.png')
                         }
                     ]
@@ -22,32 +22,33 @@ export function SpeisekarteProvider({ children }) {
                 {
                     name: '2. GAI STAY 3 Stück',
                     description:'Hähnchenbrustfilet gewürz mit Curry und serviert mit Erdnusssoßen',
-                    price: [{Normal: 5.90 + '€'}],
+                    price: [{Normal: '5.90€'}],
                 },
                 {
                     name: '3. GIAOW THOD 6 Stück',
                     description: 'gebratene wan tan teig',
-                    price: [{Normal: 4.90 + '€'}],
+                    price: [{Normal: '4.90€'}],
                 },
                 {
                     name: '4. PLA MÜG THOD 6 Stück',
                     description: 'Frittierte Tintenfisch',
-                    price: [{Normal: 4.90 + '€'}],
+                    price: [{Normal: '4.90€'}],
+                    image: require('./images/speisekarte/pla_mug-thod.png')
                 },
                 {
                     name: '5. GUNG THOD 6 Stück',
                     description: 'Frittierte Garnellen',
-                    price: [{Normal: 5.90 + '€'}],
+                    price: [{Normal: '5.90€'}],
                 },
                 {
                     name: '6. THAIBOO CHICKEN WING',
                     description: 'Frittieren Chicken-Wing serviert mit Süßsauer Sauce',
-                    price: [{Normal: 4.90 + '€'}],
+                    price: [{Normal: '4.90€'}],
                 },
                 {
                     name: '7. TOD RUAM',
                     description: '2 knusprige Frühlingsrollen/2 Giaw Thod /2 knusprige Garnelen 2 knusprig frittierte Tintenfischringe (2,4,a,c,f,g,k,o)',
-                    price: [{Normal: 6.90 + '€'}],
+                    price: [{Normal: '6.90€'}],
                 }
             ]
         },
@@ -67,20 +68,20 @@ export function SpeisekarteProvider({ children }) {
                 {
                     name: '10 WAN-TAN SUPPE',
                     description: 'Würzige Thai-Suppe mit 4 Wan-Tan mit Hähnchen und Gemüse (4,a,d,g,f)',
-                    price: [{Normal: 4.90 + '€'}],
+                    price: [{Normal: '4.90€'}],
                 }
             ],
             pricesTable: [
-                {Vegetarisch: 4.50 + '€',
+                {Vegetarisch: '4.50€',
                 icon: require('./images/icons/plant-based.png')
                 },
-                {Tofu: 4.50 + '€',
+                {Tofu: '4.50€',
                 icon: require('./images/icons/tofu.png')
                 },
-                {Hähnchen: 4.50 + '€',
+                {Hähnchen: '4.50€',
                 icon: require('./images/icons/chicken.png')
                 },
-                {Garnelen: 5.90 + '€',
+                {Garnelen: '5.90€',
                 icon: require('./images/icons/shrimp.png')
                 }
             ]
@@ -111,13 +112,13 @@ export function SpeisekarteProvider({ children }) {
                 }
             ],
             pricesTable: [
-                {Vegetarisch: 8.50 + '€',},
-                {Tofu: 9.50 + '€',},
-                {Hähnchen: 9.50 + '€'},
-                {Fisch: 14.50 + '€'},
-                {RindFleish: 9.90 + '€'},
-                {Garnelen: 11.50 + '€'},
-                {Ente: 12.50 + '€'}
+                {Vegetarisch: '8.50€',},
+                {Tofu: '9.50€',},
+                {Hähnchen: '9.50€'},
+                {Fisch: '14.50€'},
+                {RindFleish: '9.90€'},
+                {Garnelen: '11.50€'},
+                {Ente: '12.50€'}
             ]
         },
         {
@@ -157,16 +158,16 @@ export function SpeisekarteProvider({ children }) {
                 {
                     name: '21. KUAY TIAW NUA',
                     description: 'Thaländische Riesnudel Hausgemacht Suppe mit sojasprossen, und Rindfleisch',
-                    price: [{Normal: 12.00 + '€'}],
+                    price: [{Normal: '12.00€'}],
                 }
             ],
             pricesTable: [
-                {Vegetarisch: 8.50 + '€'},
-                {Tofu: 9.50 + '€'},
-                {Hähnchen: 9.50 + '€'},
-                {RindFleish: 9.90 + '€'},
-                {Garnelen: 11.50 + '€'},
-                {Ente: 12.50 + '€'}
+                {Vegetarisch: '8.50€'},
+                {Tofu: '9.50€'},
+                {Hähnchen: '9.50€'},
+                {RindFleish: '9.90€'},
+                {Garnelen: '11.50€'},
+                {Ente: '12.50€'}
             ]
         },
         {
@@ -206,26 +207,26 @@ export function SpeisekarteProvider({ children }) {
                 {
                     name: '28. NUA PAD NAM MAN HOY',
                     description: 'Rindfleisch mit Champignons, Gemüse und Austernsauce (2,4,a,c,d,f,o)',
-                    price: [{Normal: 9.90 + '€'}],
+                    price: [{Normal: '9.90€'}],
                 },
                 {
                     name: '29. THAIBOO PAD PRIK CURRY',
                     description: 'Rindfleisch Hähnchen und Garnelen Gebraten mit Rot Curry und Gemüse. - Scharf (2,4,a,c,d,f,o)',
-                    price: [{Normal: 12.90 + '€'}],
+                    price: [{Normal: '12.90€'}],
                 },
                 {
-                    name: '30. LACH TERIYAKI',
+                    name: '30. LACHS TERIYAKI',
                     description: 'Reis mit Lachswürfel, Verschiedene Gemüse in Teriyaki sauce',
-                    price: [{Normal: 13.00 + '€'}],
+                    price: [{Normal: '13.00€'}],
                 }
             ],
             pricesTable: [
-                {Vegetarisch: 8.50 + '€'},
-                {Tofu: 9.50 + '€'},
-                {Hähnchen: 9.50 + '€'},
-                {RindFleish: 9.90 + '€'},
-                {Garnelen: 11.50 + '€'},
-                {Ente: 12.50 + '€'}
+                {Vegetarisch: '8.50€'},
+                {Tofu: '9.50€'},
+                {Hähnchen: '9.50€'},
+                {RindFleish:' 9.90€'},
+                {Garnelen: '11.50€'},
+                {Ente: '12.50€'}
             ]
         },
         {
@@ -235,19 +236,19 @@ export function SpeisekarteProvider({ children }) {
                     name: '31. KHAO PAD', 
                     description: 'Gebratener Reis mit Ei und Gemüse (2,4,a,c,f,g,o)',
                     price: [
-                        {Vegetarisch: 8.50 + '€',
+                        {Vegetarisch: '8.5€',
                         icon: require('./images/icons/plant-based.png')
                         },
-                        {Tofu: 9.50 + '€',
+                        {Tofu: '9.5€',
                         icon: require('./images/icons/tofu.png')
                         },
-                        {Hähnchen: 9.50 + '€',
+                        {Hähnchen: '9.50€',
                         icon: require('./images/icons/chicken.png')
                         },
-                        {RindFleish: 9.90 + '€',
+                        {RindFleish: '9.90€',
                         icon: require('./images/icons/cow-silhouette.png')
                         },
-                        {Ente: 12.50 + '€',
+                        {Ente: '12.50€',
                         icon: require('./images/icons/duck.png')
                         }
                     ]
@@ -255,7 +256,7 @@ export function SpeisekarteProvider({ children }) {
                 {
                     name: '32. KHAO PAD ASIA',
                     description: 'Gebratener Reis mit Ei, Garnelen, Hähnchen und Gemüse',
-                    price: [{Normal: 12.50 + '€'}],
+                    price: [{Normal: '12.50€'}],
                 }
             ]
         },
@@ -266,16 +267,16 @@ export function SpeisekarteProvider({ children }) {
                     name: '33. YAM WUN SEN (Glasnudelsalat)',
                     description: 'Leckerer Glasnudelsalat mit ordentlich Chili, Lauch, Tomaten und Zwiebeln (2,a,d,i,k)',
                     price: [
-                        {Vegetarisch: 7.90 + '€',
+                        {Vegetarisch: '7.90€',
                         icon: require('./images/icons/plant-based.png')
                         },
-                        {Tofu: 8.50 + '€',
+                        {Tofu: '8.50€',
                         icon: require('./images/icons/tofu.png')
                         },
-                        {Hähnchen: 9.50 + '€',
+                        {Hähnchen: '9.50€',
                         icon: require('./images/icons/chicken.png')
                         },
-                        {Garnelen: 11.50 + '€',
+                        {Garnelen: '11.50€',
                         icon: require('./images/icons/shrimp.png')
                         },
                     ]
@@ -283,51 +284,51 @@ export function SpeisekarteProvider({ children }) {
                 {
                     name: '34. THAIBOO SALAT',
                     description: '(Hausgemacht Salat Sauce)',
-                    price: [{Normal: 11.50 + '€'}],
+                    price: [{Normal: '11.50€'}],
                 },
                 {
                     name: '35. YUM NUA',
                     description: 'Rindflseisch salat mit verschiedene Gemüse hausgemachte sauce',
-                    price: [{Normal: 12.00 + '€'}],
+                    price: [{Normal: '12.00€'}],
                     image: require('./images/speisekarte/yam_nua.png')
                 }
             ],
             extra: [
                 {
                     name: 'Gemüse',
-                    price: 2.50
+                    price: '2.50€'
                 },
                 {
                     name: 'Rindfleisch',
-                    price: 3.50,
+                    price: '3.50€',
                 },
                 {
                     name: 'Curry Soßa',
-                    price: 3.00
+                    price: '3.00€'
                 },
                 {
                     name: 'Tofu',
-                    price: 2.50
+                    price: '2.50€'
                 },
                 {
                     name: 'Garnelen',
-                    price: 3.50
+                    price: '3.50€'
                 },
                 {
                     name: 'Nüsse Cashewnüsse',
-                    price: 3.00
+                    price: '3.00€'
                 },
                 {
                     name: 'Reis/Nudeln',
-                    price: 3.00
+                    price: '3.00€'
                 },
                 {
                     name: 'Hähnchen',
-                    price: 3.00
+                    price: '3.00€'
                 },
                 {
                     name: 'Ente',
-                    price: 4.50
+                    price: '4.50€'
                 }
             ]
         },
@@ -337,7 +338,7 @@ export function SpeisekarteProvider({ children }) {
                 {
                     name: '36. 2 Kugel Eis nach Wahl',
                     description: 'Vanille/Schokolade/Erdbeeren',
-                    price: [{Normal: 4.90 + '€'}],
+                    price: [{Normal: '4.90€'}],
                     extra: {
                         name: 'mit Sahne',
                         price: '+ 0.50€'
@@ -346,13 +347,13 @@ export function SpeisekarteProvider({ children }) {
                 {
                     name: '37. Apfeltasche mit Vanilleeis',
                     description: '',
-                    price: [{Normal: 5.90 + '€'}],
+                    price: [{Normal: '5.90€'}],
                     image: require('./images/speisekarte/banana-split.png')
                 },
                 {
                     name: '38. Knusprig frittierte Bananen im Teigmantel mit Vanilleeis',
                     description: 'mit Vanilleeis',
-                    price: [{Normal: 5.90 + '€'}],
+                    price: [{Normal: '5.90€'}],
                 }
             ]
         }

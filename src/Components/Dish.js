@@ -31,7 +31,7 @@ const Dish = ({name, description, price, image}) => {
             </Col>
 
             {image &&
-              <Col className='col-auto'>
+              <Col className='col text-end'>
                 <img src={image} alt='Gericht' style={{width: '50%'}}/>
               </Col>
             }

@@ -127,7 +127,7 @@ body {
 
 /*Banner*/
 .bannerRow {
-    background-image: url('./images/home/banner1.jpg');
+    background-image: url('./images/home/banner1.jpeg');
     background-position: center;
     background-size: cover;
     height: 500px;

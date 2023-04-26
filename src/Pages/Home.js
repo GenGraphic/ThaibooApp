@@ -53,12 +53,13 @@ function App() {
         <Row className="d-flex justify-content-center align-items-center">
           <Col>
             <p className="titleParagraph">Thaiboo</p>
-            <p className="subtitle">Erleben Sie die Aromen Asiens in jedem Bissen!</p>
+            <p className="subtitle text-center text-lg-start">Erleben Sie die Aromen Asiens in jedem Bissen!</p>
             <img loading="lazy" className="paragraphIcon" src={require('../images/home/paragraph.png')} alt="Paragraph Icon"/>
-            <p className="paragraph mt-3">Willkommen im ThaiBoo! Hier erwartet Sie eine vielfältige Auswahl an köstlichen Gerichten aus verschiedenen Ländern Asiens. 
-              Unser erfahrenes Küchenteam bereitet jedes Gericht mit frischen Zutaten und traditionellen Techniken zu, um Ihnen ein authentisches 
-              Geschmackserlebnis zu bieten. Ob Sie nun eine Vorliebe für scharfe thailändische Currygerichte haben oder lieber die delikate japanische 
-              Küche genießen möchten, bei uns finden Sie sicherlich etwas, das Ihrem Geschmack entspricht. Lassen Sie sich von uns auf eine kulinarische 
+            <p className="paragraph mt-3">
+              Willkommen im ThaiBoo! Hier erwartet Sie eine vielfältige Auswahl an köstlichen Gerichten aus Thailand Unser erfahrenes Küchenteam bereitet jedes Gericht 
+              mit frischen Zutaten und traditionellen Techniken zu, um Ihnen ein authentisches Geschmackserlebnis zu bieten. Ob Sie nun eine Vorliebe für scharfe 
+              thailändische Currygerichte Wahlweise mit Reis oder Verschiedener Nudeln haben oder lieber Gebratenes Gemüse mit Garnelen, Rind, knuspriger Ente, 
+              Hühnchen oder Tofu genießen möchten bei uns finden Sie sicherlich etwas, das Ihrem Geschmack entspricht. Lassen Sie sich von uns auf eine kulinarische 
               Reise durch Asien mitnehmen und genießen Sie Ihr Essen in gemütlicher Atmosphäre.
             </p>
           </Col>
@@ -77,11 +78,11 @@ function App() {
           </Col>
           <Col>
             <p className="titleParagraph">Thaiboo Team</p>
-            <p className="subtitle text-center">Gemeinsam schaffen wir unvergessliche Geschmackserlebnisse für unsere Gäste!</p>
+            <p className="subtitle text-center text-lg-start">Gemeinsam schaffen wir unvergessliche Geschmackserlebnisse für unsere Gäste!</p>
             <img className="paragraphIcon" src={require('../images/home/paragraph.png')} alt="Paragraph Icon"/>
-            <p className="paragraph mt-3">Unser Team im asiatischen Restaurant besteht aus leidenschaftlichen und erfahrenen Köchen, die mit viel Liebe und Hingabe jede Speise zubereiten. 
-              Jeder Mitarbeiter trägt dazu bei, dass Sie als Gast ein unvergessliches kulinarisches Erlebnis genießen können. Wir sind stolz auf unser Team und schätzen ihre harte 
-              Arbeit und ihr Engagement, um sicherzustellen, dass jeder Gast sich bei uns wie zu Hause fühlt.
+            <p className="paragraph mt-3">Unser Team besteht aus leidenschaftlichen und erfahrenen Köchen, die mit viel Liebe und Hingabe jede Speise zubereiten. 
+              Jeder Mitarbeiter trägt dazu bei, dass Sie als Gast ein unvergessliches kulinarisches Erlebnis genießen können. Wir sind stolz auf unser Team und schätzen 
+              ihre harte Arbeit und ihr Engagement, um sicherzustellen, dass jeder Gast sich bei uns wie zu Hause fühlt.
             </p>
           </Col>
         </Row>

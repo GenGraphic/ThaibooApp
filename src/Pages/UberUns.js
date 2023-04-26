@@ -31,7 +31,7 @@ const UberUns = () => {
             data-aos-duration="2000"
             className='titleOuterFrame w-75'>
               <div className='titleInnerFrame'>
-                <p>Tchaiboo</p>
+                <p>Thaiboo</p>
                 <h2>Über uns</h2>
               </div>
             </div>
@@ -77,7 +77,7 @@ const UberUns = () => {
           <div className='mottoOutterFrame d-flex justify-content-center align-items-center'>
             <div className='mottoInnerFrame'>
               <p className='motto'>
-                Entdecken Sie die Aromen Asiens - lassen Sie sich von uns auf eine kulinarische Reise entführen und erleben Sie einen unvergesslichen Abend in unserem Restaurant.
+              Genießen Sie jetzt auch  auch Unsere Leckeren Bubble Tea’s. Wir bieten Milchtea’s Früchtetea’s und Sodamix.
               </p>
             </div>
           </div>
