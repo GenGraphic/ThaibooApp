@@ -21,6 +21,11 @@ const Kontakt = () => {
             <h5 className='text-center estebanFont'>ANSCHRIFT</h5>
           </div>
           <Carousel.Caption>
+            <img 
+            src={require('../images/icons/cash-only.png')}
+            style={{width:100}}
+            alt='Cash-Only Icon'
+            />
             <h3>Landshuter Str. 9,</h3>
             <p>85368 Moosburg an der Isar</p>
           </Carousel.Caption>

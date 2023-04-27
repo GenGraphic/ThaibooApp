@@ -41,26 +41,6 @@ const Speisekarte = () => {
         </Row>
       </Container>
 
-      <Container className='mt-3'>
-        <Row className=''>
-          <div className='infoBanner d-flex flex-row justify-content-between align-items-center p-1'>
-            <img 
-            alt='Warning Icon'
-            style={{width: 30}}
-            src={require('../images/icons/warning.png')}
-            />
-            <p style={{fontWeight: 600, marginBottom: 0}} className='text-center px-1'>Bitte beachten Sie, dass wir nur Barzahlungen akzeptieren. 
-              Wir danken Ihnen für Ihr Verständnis und freuen uns auf Ihren Besuch!
-            </p>
-            <img 
-            alt='Warning Icon'
-            style={{width: 30}}
-            src={require('../images/icons/warning.png')}
-            />
-          </div>
-        </Row>
-      </Container>
-
       <Container className='mt-5 pt-3 speisekarteCont'>
         <Row className=''>
           <Col className='col-12 col-lg-6'>
