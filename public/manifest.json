@@ -1,19 +1,31 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Thaiboo",
+  "name": "Thaiboo Website",
   "icons": [
     {
+<<<<<<< HEAD
       "src": "flavicon.ico",
+=======
+      "src": "../src/images/logo-black.png",
+>>>>>>> ea5fed655b9b1310fb2be75a85dc7a394c28dff1
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
+<<<<<<< HEAD
       "src": "flavicon.ico",
+=======
+      "src": "../src/images/logo-black.png",
+>>>>>>> ea5fed655b9b1310fb2be75a85dc7a394c28dff1
       "type": "image/png",
       "sizes": "192x192"
     },
     {
+<<<<<<< HEAD
       "src": "flavicon.ico",
+=======
+      "src": "../src/images/logo-black.png",
+>>>>>>> ea5fed655b9b1310fb2be75a85dc7a394c28dff1
       "type": "image/png",
       "sizes": "512x512"
     }
