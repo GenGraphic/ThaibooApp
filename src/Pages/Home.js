@@ -74,7 +74,7 @@ function App() {
 
         <Row className="mt-5 d-flex justify-content-center align-items-center">
           <Col className="col-auto">
-            <img alt="Team Foto" loading="lazy" className="teamImg" src={require('../images/home/team.jpg')}/>
+            <img alt="Team Foto" loading="lazy" className="teamImg" src={require('../images/home/team.webp')}/>
           </Col>
           <Col>
             <p className="titleParagraph">Thaiboo Team</p>

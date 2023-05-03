@@ -108,7 +108,7 @@ body {
 .puzzleCont {
     width: 350px;
     height: 350px;
-    background-image: url('./images/home/presentationPlate.jpeg');
+    background-image: url('./images/home/presentationPlate.webp');
     background-position: center;
     background-size: cover;
 }
@@ -118,7 +118,7 @@ body {
     background-color: #F8F9FA;
 }
 .puzzlePiece {
-    background-image: url('./images/home/presentationPlate.jpeg');
+    background-image: url('./images/home/presentationPlate.webp');
     background-position: 20% 10%;
     background-size: 300%;
     width: 95%;

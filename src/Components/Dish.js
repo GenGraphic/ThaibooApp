@@ -16,7 +16,7 @@ const Dish = ({name, description, price, image}) => {
                   <div className='priceTable p-2 '>
                     {price.map((item) => {
                       return (
-                        <div className='d-flex ml-5 justify-content-between flex-fill textWhite'>
+                        <div key={item.icon} className='d-flex ml-5 justify-content-between flex-fill textWhite'>
                           <div className='d-flex'>
                             <img src={item.icon} className='smallIcon' alt='Icon'/>
                             <p className='m-0 pl-2'>{Object.getOwnPropertyNames(item)[0]}</p>

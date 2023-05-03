@@ -48,7 +48,7 @@ const Speisekarte = () => {
             {SortCategory('VORSPEISEN').map((item) => {
               return(
                 <Dish
-                  key={item}
+                  key={item.index}
                   name={item.name}
                   description={item.description}
                   price={item.price}
@@ -62,7 +62,7 @@ const Speisekarte = () => {
             {SortCategory('SUPPEN').map((item) => {
               return(
                 <Dish
-                  key={item}
+                  key={item.index}
                   name={item.name}
                   description={item.description}
                   price={item.price}
@@ -111,7 +111,7 @@ const Speisekarte = () => {
             {SortCategory('HAUPTGERICHTE MIT THAI-CURRYSAUCE').map((item) => {
               return(
                 <Dish
-                  key={item} 
+                  key={item.index} 
                   name={item.name}
                   description={item.description}
                   price={item.price}
@@ -181,7 +181,7 @@ const Speisekarte = () => {
             {SortCategory('NUDELGERICHTE MIT SOJASAUCE').map((item) => {
               return(
                 <Dish
-                  key={item} 
+                  key={item.index} 
                   name={item.name}
                   description={item.description}
                   price={item.price}
@@ -247,7 +247,7 @@ const Speisekarte = () => {
             {SortCategory('REISGERICHTE MIT SOJASAUCE').map((item) => {
                 return(
                   <Dish
-                    key={item}
+                    key={item.index}
                     name={item.name}
                     description={item.description}
                     price={item.price}
@@ -310,7 +310,7 @@ const Speisekarte = () => {
             {SortCategory('GEBRATENER REIS').map((item) => {
                 return(
                   <Dish
-                    key={item}
+                    key={item.index}
                     name={item.name}
                     description={item.description}
                     price={item.price}
@@ -364,7 +364,7 @@ const Speisekarte = () => {
             {SortCategory('SALATE').map((item) => {
                 return(
                   <Dish
-                    key={item}
+                    key={item.index}
                     name={item.name}
                     description={item.description}
                     price={item.price}
@@ -420,7 +420,7 @@ const Speisekarte = () => {
             {SortCategory('NACHTISCH').map((item) => {
                 return(
                   <Dish
-                    key={item}
+                    key={item.index}
                     name={item.name}
                     description={item.description}
                     price={item.price}
